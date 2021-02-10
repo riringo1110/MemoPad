@@ -15,6 +15,7 @@
 		E0C0528625D10E4A00D746EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C0528425D10E4A00D746EC /* LaunchScreen.storyboard */; };
 		E0C0529125D10E4A00D746EC /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C0529025D10E4A00D746EC /* MemoPadTests.swift */; };
 		E0C0529C25D10E4A00D746EC /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C0529B25D10E4A00D746EC /* MemoPadUITests.swift */; };
+		E0C052AD25D10EA100D746EC /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C052AC25D10EA100D746EC /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E0C0529725D10E4A00D746EC /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C0529B25D10E4A00D746EC /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		E0C0529D25D10E4A00D746EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C052AC25D10EA100D746EC /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E0C0528225D10E4A00D746EC /* Assets.xcassets */,
 				E0C0528425D10E4A00D746EC /* LaunchScreen.storyboard */,
 				E0C0528725D10E4A00D746EC /* Info.plist */,
+				E0C052AC25D10EA100D746EC /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C052AD25D10EA100D746EC /* MemoViewController.swift in Sources */,
 				E0C0527E25D10E4800D746EC /* ViewController.swift in Sources */,
 				E0C0527A25D10E4800D746EC /* AppDelegate.swift in Sources */,
 				E0C0527C25D10E4800D746EC /* SceneDelegate.swift in Sources */,
